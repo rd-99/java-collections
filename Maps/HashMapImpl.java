@@ -34,6 +34,15 @@ public class HashMapImpl {
         for(Map.Entry<String , Integer> entry : entrySet) {
             System.out.println(entry.getKey() + "," + entry.getValue());
         }
+        System.out.println(entrySet);
+        System.out.println(55 + "" + Arrays.toString(entrySet.toArray()));
+
+        Set<String> entryKeys = maps.keySet();
+        for (String k : entryKeys){
+            System.out.printf(k + " : " + maps.get(k) + "\n");
+        }
+
+
 
 
     }
