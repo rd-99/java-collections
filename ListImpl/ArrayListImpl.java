@@ -5,6 +5,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
 
+Arrays.fill(arr , -1);
+
 public class ArrayListImpl {
 
     public static void main(String[] args){
